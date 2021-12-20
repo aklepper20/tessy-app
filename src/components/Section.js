@@ -2,26 +2,21 @@ import React from "react";
 import styled from "styled-components";
 import Fade from "react-reveal/Fade";
 
-function Section({
-  title,
-  description,
-  leftBtnText,
-  rightBtnText,
-  backgroundImg,
-}) {
+function Section({ title, image, desc }) {
   return (
-    <Wrapper bgImage={backgroundImg}>
+    <Wrapper bgImage={image}>
       <Fade bottom>
         <ItemText>
           <h1>{title}</h1>
-          <p>{description}</p>
+          <p>"Order Online for Touchless Delivery"</p>
         </ItemText>
       </Fade>
       <Buttons>
         <Fade bottom>
           <ButtonGroup>
-            <LeftButton>{leftBtnText}</LeftButton>
-            {rightBtnText && <RightButton>{rightBtnText}</RightButton>}
+            <LeftButton>"Order Online for Touchless Delivery"</LeftButton>
+            {/* {rightBtnText && <RightButton>Existing Inventory</RightButton>} */}
+            <RightButton>Existing Inventory</RightButton>
           </ButtonGroup>
           <DownArrow src="/images/down-arrow.svg" alt="Down Arrow" />
         </Fade>
