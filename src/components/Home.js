@@ -34,6 +34,26 @@ function Home() {
         leftBtnText="Custom Order"
         rightBtnText="Existing inventory"
       />
+      <Section
+        title="Lower cost solar panels in america"
+        description="money back garutentee"
+        backgroundImg="Solar-panel.jpg"
+        leftBtnText="Order now"
+        rightBtnText="Learn more"
+      />
+      <Section
+        title="Solar panels for new roofs"
+        description="Order online for touchless delivery"
+        backgroundImg="solar-roof.jpg"
+        leftBtnText="Custom Order"
+        rightBtnText="Existing inventory"
+      />
+      <Section
+        title="accessories"
+        description="Order online for touchless delivery"
+        backgroundImg="accessories.jpg"
+        leftBtnText="shop now"
+      />
     </Container>
   );
 }
